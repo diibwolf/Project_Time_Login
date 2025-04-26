@@ -64,8 +64,8 @@ Test_password = tk.Entry(root, show="*")
 Test_password.pack()
 
 
-u1 = Utilisateur('zakaria', 'password@123')
-u2 = Utilisateur('anass', 'pasd901')
+u1 = Utilisateur('user1', 'password@123')
+u2 = Utilisateur('user2', 'pasd901')
 auth_sys = AuthentificationSystem()
 auth_sys.ajouter_utilisateur(u1)
 auth_sys.ajouter_utilisateur(u2)
